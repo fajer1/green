@@ -1,0 +1,54 @@
+body
+{
+	background-color: white ;
+}
+
+
+#maincontainer
+{
+	background-color: #84b59f ;
+	color:black               ;
+	padding-bottom: 50px;
+
+}
+.nav-item
+{
+	padding-left: 2vw;
+}
+#pro-info
+{
+	padding-top: 10px;
+}
+
+#row1
+{ 
+	padding-top: 10vh;
+}
+
+#cartmain
+{
+	
+	max-height: 100vh;
+}
+#cart-heading
+{ 
+	padding-top: 35px;
+	font-size: 30px;
+}
+
+#table-row
+{
+	padding-top: 50px;
+}
+
+#about
+{
+	background-color:  #84b59f ;
+	max-height: 25vh;
+}
+#about-row
+{
+	color: white ;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
