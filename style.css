@@ -6,13 +6,13 @@ body
 
 #maincontainer
 {
-	background-color: #84b59f ;
+	
 	color:black               ;
 	padding-bottom: 50px;
 
 }
 .nav-item
-{
+{ 
 	padding-left: 2vw;
 }
 #pro-info
@@ -40,15 +40,15 @@ body
 {
 	padding-top: 50px;
 }
-
 #about
 {
-	background-color:  #84b59f ;
-	max-height: 25vh;
+	max-height: 25px;
 }
 #about-row
 {
-	color: white ;
+	color: black ;
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
+
+

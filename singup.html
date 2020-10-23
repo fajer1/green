@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html dir="rtl">
+  <title> التسجيل  </title>
+<head>
+  <script src="./fajer.js" > </script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+h3{
+  display: block;
+  text-align: center;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.button {
+  background-color : green ;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+
+<h3>      نفتخر بكم .. و نفتخر بكل مزارع كويتي 💚        </h3>
+
+<div class="container">
+  <form action="/action_page.php" method="GET">
+    <label for="fname"> الاسم الاول </label>
+    <input type="text" id="fname" name="firstname" placeholder=" اكتب اسمك الاول">
+
+    <label for="lname"> اسمك الاخير      </label>
+    <input type="text" id="lname" name="lastname" placeholder="اكتب اسمك الاخير">
+
+    <label for="farm">   مكان مزرعتك     </label>
+    <select id="farm" name="farm">
+      <option value="alabdali">   العبدلي     </option>
+      <option value="alwafra"> الوفرة </option>
+    </select>
+
+    <label for="subject">   اكتب جميع ما تريد   </label>
+    <textarea id="subject" name="subject" placeholder=" لا تنسى اسم مزرعتك , ,والمنتجات التي تنتجها و رقم التواصل    " style="height:200px"></textarea>
+    <a href="./fajer.html" class="button"> ارسال  </a>
+   
+  </form>
+</div>
+
+</body>
+</html>
+

@@ -7,7 +7,7 @@ function Product(id,name,price)
 var p1 = new Product(1,"mango",1.750 )
 var p2 = new Product(2," strawberry", 0.900)
 var p3 = new Product(3," red bur", 3)
-var p4 = new Product(4," banana", 1.600 )
+var p4 = new Product(4,"Watermelon ", 1.600 )
 var p5 = new Product(5,"orange ", 2.500)
 var P6 = new Product(6," Watercress"   , 0.600)
 
